@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="skryptFormularz.js"></script>
+</head>
+<body>
+    <form name="formularz">
+        <label for="login">Podaj login:</label><br>
+        <input type="text" id="login" name="login"><br>
+        <label for="haslo">Podaj haslo:</label><br>
+        <input type="password" id="haslo" name="haslo"><br>
+        <label for="phaslo" id="phaslo">Powtorz haslo:</label><br>
+        <input type="password" id="phaslo" name="phaslo"><br><br>
+        <div id="pole1" style="color: red;">Podaj dobre hasło</div><br>
+        <input type="button" value="Rejestruj" onclick="logowanie(this.form)">
+        <input type="reset" value="Wyczyść">
+        
+    </form>
+</body>
+</html>

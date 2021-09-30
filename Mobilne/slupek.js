@@ -1,0 +1,1 @@
+let x = prompt("Podaj wartość od 1 do 100")
